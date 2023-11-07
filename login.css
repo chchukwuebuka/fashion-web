@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(
+        to left,
+        darkred,
+        red,
+        orangered
+    );
+}
+
+.sign-up-page{
+    display: flex;
+    margin-left: 270px;
+    margin-top: 60px;
+    
+}
+
+.inner-sign-up-page{
+    padding: 5px 50px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    cursor: pointer;
+}
+
+#tie{
+    padding-top: 10px;
+}
+
+.IMG{
+    padding-right: 13px;
+}
+
+.email{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
